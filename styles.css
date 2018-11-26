@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    max-width: 800px;
+    padding: 16px;
+    font-family: 'Bitter', monospace;
+}
+
+.theme-light {
+    background-color: white;
+    color: #202c32;
+}
+
+.theme-dark {
+    background-color: #202c32;
+    color: #eceff1;
+}
+
+.icon-well {
+    background: white;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.icon-well * {
+    margin-left: 3px;
+    margin-right: 3px;
+}

@@ -1,1 +1,48 @@
-@kgbier
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>@kgbier | Konrad Biernacki - Software Engineer</title>
+   </head>
+
+   <body class="theme-light">
+      <div>
+         <h1>@kgbier</h1>
+         <h2>Konrad Biernacki - Software Engineer</h2>
+         <div class="theme-button">
+            <button id="theme-switcher" type="button">Toggle Dark Mode</button>
+         </div>
+      </div>
+
+      <div>
+         <p>Hiya! I'm a software engineer living in Melbourne, Australia.</p>
+         <p>I hold a degree in Computer Science from RMIT University, which supplemented my broad curiosity for all things tech. I've been pulling software and hardware apart since I got my hands on my first desktop computer (and broke my first floppy disk).</p>
+         <p>I started fiddling with videogames, diving into modding and mapping, and wrote my first few desktop utilities in C# with Visual Studio 2008. Since then, I've managed to turn my passion for tinkering with computer systems into a career.</p>
+         <p>I've worked professionally on native mobile apps and full-stack web applications. I'm always keen to learn a new technology, framework, paradigm or domain.</p>
+         <p>Get in touch with me at <a href="mailto:kgbier@gmail.com">kgbier@gmail.com</a>!</p>
+      </div>
+
+      <div class="icon-well">
+         <a href="https://github.com/kgbier"><img src="svg/octo.svg" height="32px" title="Visit my Github page"></a>
+         <a href="https://www.linkedin.com/in/kgbier"><img src="svg/linkedin.svg" height="32px" title="Visit my Linkedin page"></a>
+      </div>
+   </body>
+
+   <link rel="stylesheet" href="styles.css" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+
+   <script>
+      document
+      .querySelector('#theme-switcher')
+      .addEventListener('click', function() {
+         var body = document.querySelector('body');
+      
+         if (body.classList.contains('theme-light')) {
+            body.classList.remove('theme-light');
+            body.classList.add('theme-dark');
+         } else {
+            body.classList.remove('theme-dark');
+            body.classList.add('theme-light');
+         }
+      });
+   </script>
+</html>
