@@ -63,3 +63,11 @@ button {
     border: 0;
     border-radius: 3px;
 }
+
+button:hover {
+    background-color: #455a64;
+}
+
+button:active {
+    background-color: #323f46;
+}
