@@ -3,9 +3,6 @@ body {
     max-width: 800px;
     padding: 16px;
     font-family: 'Bitter', monospace;
-}
-
-.theme-light {
     background-color: white;
     color: #202c32;
 }
@@ -13,6 +10,34 @@ body {
 .theme-dark {
     background-color: #202c32;
     color: #eceff1;
+}
+
+a {
+    color: #202c32;
+}
+.theme-dark a {
+    color: #eceff1;
+}
+
+a:visited {
+    color: #455a64;
+}
+.theme-dark a:visited {
+    color: #b0bec5;
+}
+
+a:hover {
+    color: #37474f;
+}
+.theme-dark a:hover {
+    color: #cfd8dc;
+}
+
+a:active {
+    color: #546e7a;
+}
+.theme-dark a:active {
+    color: #90a4ae;
 }
 
 .icon-well {
