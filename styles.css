@@ -1,47 +1,50 @@
-body {
-    margin: auto;
-    max-width: 800px;
-    padding: 16px;
-    font-family: 'Bitter', monospace;
-    background-color: white;
-    color: #202c32;
-}
-
 .theme-dark {
     background-color: #202c32;
     color: #eceff1;
 }
 
+body {
+    margin: auto;
+    max-width: 800px;
+    padding: 16px;
+    font-family: 'Bitter', monospace;
+    font-size: 18px;
+    background-color: #fefefe;
+    color: #202c32;
+}
+
+p {
+    line-height: 1.4em;
+}
+
 a {
     color: #202c32;
 }
-.theme-dark a {
-    color: #eceff1;
-}
-
 a:visited {
     color: #455a64;
+}
+a:hover {
+    color: #37474f;
+}
+a:active {
+    color: #546e7a;
+}
+
+.theme-dark a {
+    color: #eceff1;
 }
 .theme-dark a:visited {
     color: #b0bec5;
 }
-
-a:hover {
-    color: #37474f;
-}
 .theme-dark a:hover {
     color: #cfd8dc;
-}
-
-a:active {
-    color: #546e7a;
 }
 .theme-dark a:active {
     color: #90a4ae;
 }
 
 .icon-well {
-    background: white;
+    background: #fefefe;
     padding-top: 8px;
     padding-bottom: 4px;
     border-radius: 3px;
