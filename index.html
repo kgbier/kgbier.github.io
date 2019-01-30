@@ -44,17 +44,20 @@
    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
 
    <script>
+      const THEME_LIGHT = 'theme-light';
+      const THEME_DARK = 'theme-dark';
+
       document
       .querySelector('#theme-switcher')
       .addEventListener('click', function() {
          var body = document.querySelector('body');
 
-         if (body.classList.contains('theme-light')) {
-            body.classList.remove('theme-light');
-            body.classList.add('theme-dark');
+         if (body.classList.contains(THEME_LIGHT)) {
+            body.classList.remove(THEME_LIGHT);
+            body.classList.add(THEME_DARK);
          } else {
-            body.classList.remove('theme-dark');
-            body.classList.add('theme-light');
+            body.classList.remove(THEME_DARK);
+            body.classList.add(THEME_LIGHT);
          }
       });
    </script>
