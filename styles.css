@@ -4,10 +4,7 @@
 }
 
 body {
-    margin: auto;
-    max-width: 800px;
-    padding: 16px;
-    font-family: 'Bitter', monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     background-color: #fefefe;
     color: #202c32;
