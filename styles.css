@@ -3,8 +3,12 @@
     color: #eceff1;
 }
 
-body {
+h1, h2 {
     font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-family: 'Menlo', 'Cascadia Mono', monospace;
     font-size: 18px;
     background-color: #fefefe;
     color: #202c32;
